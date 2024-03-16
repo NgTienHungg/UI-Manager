@@ -15,11 +15,16 @@ public class HomePanel : Panel
         // fade screen to dark
         DarkTransition.Instance.TransitionAsync(async () =>
         {
-            await PanelManager.Instance.ClosePanel("HomePanel", immediately: true);
+            // close immediately home panel
+            await PanelManager.Instance.ClosePanel(
+                panelName: "HomePanel",
+                immediately: true
+            );
 
             // create play panel when screen is full dark
             await PanelManager.Instance.CreatePanel<PlayPanel>(
-                panelName: "PlayPanel", canBack: false,
+                panelName: "PlayPanel", 
+                canBack: false,
                 onSetup: panel => panel.Setup()
             );
         });

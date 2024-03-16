@@ -15,7 +15,7 @@ MonoBehaviour:
   m_GroupName: Panel
   m_Data:
     m_SerializedData: []
-  m_GUID: 01a10b1ade521484bb46c6bb4cdd4422
+  m_GUID: d0f2c6df626e5494e847167b263ba373
   m_SerializeEntries:
   - m_GUID: eef9c8e3bf1b1aa4682fbb38c6968e18
     m_Address: HomePanel
@@ -36,5 +36,5 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 69e8127d53b6ea3479411b749c21527c, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: afb04ecf33dab5049ae9ad2152626e9b, type: 2}
-    - {fileID: 11400000, guid: 8ca30aa2c2653c045a240e63e1e513cb, type: 2}
+    - {fileID: 11400000, guid: 6bfe7fb2377b1634a9d669b90930574f, type: 2}
+    - {fileID: 11400000, guid: f11e410a64e3e2847828d301808aa708, type: 2}
